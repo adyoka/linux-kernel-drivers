@@ -30,6 +30,14 @@ A simple virtual LED device driver `/dev/vled` for Linux. It simulates an LED wh
 
 ---
 
+### Network Blocker LSM
+**Description:**
+A Linux Security Module that intercepts and blocks network access for targeted processes by hooking into security-related socket functions.
+
+🔗 [Source code](./network-blocker/)
+
+---
+
 ## 🛠️ Setup & Compilation
 To build and install each module:
 ```bash
